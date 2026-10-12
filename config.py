@@ -2,8 +2,8 @@
 import os
 
 # 观察列表(币安 USDT 永续合约代码,大写)
-SYMBOLS = ["MUUSDT", "AMDUSDT", "AVGOUSDT", "INTCUSDT",
-           "COINUSDT", "MSTRUSDT", "RKLBUSDT", "HPEUSDT"]
+# 今天重点关注: MUU AMD MSTR COIN
+SYMBOLS = ["MUUSDT", "AMDUSDT", "MSTRUSDT", "COINUSDT"]
 
 INTERVAL = "5m"          # 看几分钟K线
 KLINE_LIMIT = 150        # 每次取多少根(要 >= 105,才能算 MA99)
